@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding: 20px;
+    position: relative;
+    top: 0;
+    align-items: flex-end;
+    justify-content: right;
+    display: flex;
+}
+
+
+.headertag ul{
+ font-weight: bold;
+ font-size: 16px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.headertag ul li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+.headertag ul li a {
+ text-decoration: none;
+ color: #111;
+ font-size: 13px;
+ 
+}
+.girdbar{
+    width: 25px;;
+}
+
+#button {
+    padding: 8px 14px;
+    background: #4584ef;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    width: 580px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.main img{
+    width: 300px;
+}
+
+.searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    outline: none;
+    font-size: 16px;
+}
+.icons{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    padding: 13px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+}
+.icons img{
+    width: 22px;
+
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    background: #eee;
+    color:#555;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px solid transparent;
+    outline: none;
+}
+
+.buttons button:hover{
+    border-radius: 5px ;
+    border:1px solid #ca3f08;
+}
+
+.lang{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f3f3f3;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0, 0, 0) 0.5;
+}
+
+.row ul{
+    
+    display: flex;
+    
+    margin-left: 10px;
+}
+.row ul li{
+    list-style: none;
+    
+    
+}
+
+.row ul li a{
+    text-decoration: none;
+    color: #383333;
+    font-size: 14px;
+    margin-right: 25px;
+}
